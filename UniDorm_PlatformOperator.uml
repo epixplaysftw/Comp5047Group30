@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_FluSkMfJEfGN4cdcgdGZyA" name="UniDorm_PlatformOperator">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_FzQYQMfJEfGN4cdcgdGZyA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_Spl8EMfKEfGN4cdcgdGZyA" name="Platform Operator Subsystem" useCase="_tTcIgMfKEfGN4cdcgdGZyA">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_tTcIgMfKEfGN4cdcgdGZyA" name="Onboard University" subject="_Spl8EMfKEfGN4cdcgdGZyA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_6Wr8YMfKEfGN4cdcgdGZyA" name="Platform Operator"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ECHf4MfLEfGN4cdcgdGZyA" memberEnd="_EChIgMfLEfGN4cdcgdGZyA _ECi9sMfLEfGN4cdcgdGZyA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ECJ8IMfLEfGN4cdcgdGZyA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ECJ8IcfLEfGN4cdcgdGZyA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EChIgMfLEfGN4cdcgdGZyA" name="onboard university" type="_tTcIgMfKEfGN4cdcgdGZyA" association="_ECHf4MfLEfGN4cdcgdGZyA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ECi9sMfLEfGN4cdcgdGZyA" name="actor5" type="_6Wr8YMfKEfGN4cdcgdGZyA" association="_ECHf4MfLEfGN4cdcgdGZyA"/>
+  </packagedElement>
+</uml:Model>
