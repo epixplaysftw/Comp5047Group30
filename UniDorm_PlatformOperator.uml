@@ -3,8 +3,21 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_FzQYQMfJEfGN4cdcgdGZyA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Component" xmi:id="_Spl8EMfKEfGN4cdcgdGZyA" name="Platform Operator Subsystem" useCase="_tTcIgMfKEfGN4cdcgdGZyA">
+  <packagedElement xmi:type="uml:Component" xmi:id="_Spl8EMfKEfGN4cdcgdGZyA" name="Platform Operator Subsystem" useCase="_tTcIgMfKEfGN4cdcgdGZyA _wd57kMfZEfGPoPEAwTtagA _-h9sMMfZEfGPoPEAwTtagA _EhwrcMfaEfGPoPEAwTtagA _Ia2c4MfaEfGPoPEAwTtagA _WsUFcMfcEfGPoPEAwTtagA _X5TdAMfcEfGPoPEAwTtagA _Ysl7IMfcEfGPoPEAwTtagA _Zbj58MfcEfGPoPEAwTtagA _bwIkoMfcEfGPoPEAwTtagA _cdYsMMfcEfGPoPEAwTtagA _dWEAoMfcEfGPoPEAwTtagA">
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_tTcIgMfKEfGN4cdcgdGZyA" name="Onboard University" subject="_Spl8EMfKEfGN4cdcgdGZyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_tSrVsMfZEfGPoPEAwTtagA" name="CopyOf_Onboard University_1"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_wd57kMfZEfGPoPEAwTtagA" name="Customise Branding " subject="_Spl8EMfKEfGN4cdcgdGZyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_-h9sMMfZEfGPoPEAwTtagA" name="Manage Tenant Lifecycle" subject="_Spl8EMfKEfGN4cdcgdGZyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_EhwrcMfaEfGPoPEAwTtagA" name="Manage Operator Permissions" subject="_Spl8EMfKEfGN4cdcgdGZyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Ia2c4MfaEfGPoPEAwTtagA" name="View Audit Log" subject="_Spl8EMfKEfGN4cdcgdGZyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_WsUFcMfcEfGPoPEAwTtagA" name="Monitor Tenant Usage" subject="_Spl8EMfKEfGN4cdcgdGZyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_XXizwMfcEfGPoPEAwTtagA" name="CopyOf_Onboard University_7"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_X5TdAMfcEfGPoPEAwTtagA" name="Retrain ML Models" subject="_Spl8EMfKEfGN4cdcgdGZyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Ysl7IMfcEfGPoPEAwTtagA" name="Generate Invoices" subject="_Spl8EMfKEfGN4cdcgdGZyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Zbj58MfcEfGPoPEAwTtagA" name="Manage Subscription Plans" subject="_Spl8EMfKEfGN4cdcgdGZyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_bwIkoMfcEfGPoPEAwTtagA" name="Manage ML Models" subject="_Spl8EMfKEfGN4cdcgdGZyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_cdYsMMfcEfGPoPEAwTtagA" name="Generate Benchmarks" subject="_Spl8EMfKEfGN4cdcgdGZyA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_dWEAoMfcEfGPoPEAwTtagA" name="Send System Broadcast" subject="_Spl8EMfKEfGN4cdcgdGZyA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_6Wr8YMfKEfGN4cdcgdGZyA" name="Platform Operator"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_ECHf4MfLEfGN4cdcgdGZyA" memberEnd="_EChIgMfLEfGN4cdcgdGZyA _ECi9sMfLEfGN4cdcgdGZyA">
